@@ -17,7 +17,7 @@ export default function NavigationBar() {
   const router = useRouter(); // Inicializa el router
 
   const handleButtonClick = (path: string) => {
-    router.push("/musicos"); // Ruta a la que deseas redirigir
+    router.push(path); // Ruta a la que deseas redirigir
   };
 
   return (
@@ -63,7 +63,7 @@ export default function NavigationBar() {
             // fontSize: "16px",
             "&:hover": { backgroundColor: "#b71c1c" },
           }}
-          onClick={() => handleButtonClick('musicos')}
+          onClick={() => handleButtonClick('/musicos')}
         >
           🎵 Conectarse/Registrarse como músico
         </Button>

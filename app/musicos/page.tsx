@@ -9,9 +9,7 @@ import {
   CardContent,
   CardMedia,
   Grid,
-  IconButton,
 } from '@mui/material';
-import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const FilterAndCardsPage = () => {

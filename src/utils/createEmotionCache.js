@@ -1,6 +1,6 @@
 import createCache from "@emotion/cache";
 
-const isBrowser = typeof document !== "undefined";
+// const isBrowser = typeof document !== "undefined";
 
 // Crea una instancia de caché de Emotion
 const createEmotionCache = () => {
